@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDBS Print & Partners | Redesign Concept</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <a href="#top" class="logo-link" aria-label="Zur Startseite">
+                        <img src="DDBSLogo.png" alt="DDBS Print & Partners" class="site-logo">
+                    </a>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Navigation umschalten">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#prices" id="nav-price">Preise</a></li>
+                        <li><a href="#booking" id="nav-booking">Termin buchen</a></li>
+                        <li class="nav-item dropdown">
+                            <button class="dropbtn" id="nav-more" type="button" aria-haspopup="true" aria-expanded="false">Mehr</button>
+                            <ul class="dropdown-menu" aria-label="Weitere Navigation">
+                                <li><a href="DDSinfo.html" id="nav-license">DDBS info</a></li>
+                                <li><a href="#resources" id="nav-resources">Ressourcen</a></li>
+                                <li><a href="#professional-training" id="nav-training">Weiterbildung</a></li>
+                                <li><a href="#handicap" id="nav-handicap">Handicap</a></li>
+                                <li><a href="#team" id="nav-team">Our Team</a></li>
+                                <li><a href="#partners" id="nav-partners">Partners</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact" class="btn-nav-cta" id="nav-contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="language-selector">
+                    <button type="button" class="google-translate-toggle" id="google-translate-toggle">Deutsch</button>
+                    <div id="google_translate_element" class="google-translate-element" aria-hidden="true"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(78, 124, 177, 0.404), rgba(119, 77, 77, 0.603)), url('printer11.jpg');">
+
+        <div class="container hero-content">
+            <h1 id="hero-title">Dein Print & Partners in <br><span class="highlight">Hamburg.</span></h1>
+            <p id="hero-text">Sicher, modern und ohne Stress zum Ziel.</p>
+            <p id="hero-text">Statten Sie Ihr Druckunternehmen mit professionellen Offsetdruckmaschinen aus Deutschland aus.</p>
+            <div class="hero-cta-container">
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary" id="hero-cta">Jetzt starten</a>
+                    <a href="#prices" class="btn-secondary" id="hero-prices">Preise ansehen</a>
+                    <a href="#booking" class="btn-tertiary" id="hero-book">Termin buchen</a>
+                </div>
+                <a href="https://www.youtube.com/dedebundes"
+                   class="review-badge"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Bewertungen auf Wer kennt den Besten">
+                    <img src="youtube1.png" alt="Wer kennt den Besten Bewertungen" class="review-logo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container slideshow-section">
+        <h2 class="section-title" id="slideshow-title">Bilder unserer Printers & Produkte</h2>
+        <div class="slideshow" id="slideshow">
+            <div class="slide active">
+                <img src="print2.jpg" alt="Printout Colours1">
+            </div>
+            <div class="slide">
+                <img src="print3.jpg" alt="Printout Colours2">
+            </div>
+            <div class="slide">
+                <img src="print4.jpg" alt="Printout Colours3">
+            </div>
+            <div class="slide">
+                <img src="printer2.jpg" alt="Printer 2">
+            </div>
+            <div class="slide">
+                <img src="DDBSLogo1.png" alt="DDBS Vision Plus Logo">
+            </div>
+            <button class="slide-btn prev" aria-label="Vorheriges Bild">‹</button>
+            <button class="slide-btn next" aria-label="Nächstes Bild">›</button>
+            <div class="slide-dots" id="slide-dots"></div>
+        </div>
+    </section>
+
+    <section id="prices" class="container">
+        <h2 class="section-title" id="prices-title">Transparente Preise</h2>
+        <div class="price-grid">
+            <div class="price-card">
+                <h3 id="price-class-b">Digital Drucker</h3>
+                <p class="price-tag" id="price-fee-b">Grundgebühr: 100€ - 290€</p>
+                <ul>
+                    <li id="price-feature-b1">Theoretischer Unterricht</li>
+                    <li id="price-feature-b2">Moderne Schulungsfahrzeuge</li>
+                    <li id="price-feature-b3">Inkl. Lern-App</li>
+                </ul>
+            </div>
+            <div class="price-card featured">
+                <h3 id="price-class-b197">3D Drucker</h3>
+                <p class="price-tag" id="price-fee-b197">Grundgebühr: 100€ - 550€</p>
+                <ul>
+                    <li id="price-feature-b197-1">Mix aus Schaltung & Automatik</li>
+                    <li id="price-feature-b197-2">Keine Prüfungsangst</li>
+                    <li id="price-feature-b197-3">Zukunftssicher fahren</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <h3 id="price-class-b">Industriedrucker</h3>
+                <p class="price-tag" id="price-fee-b">Grundgebühr: 200€ - 2900€</p>
+                <ul>
+                    <li id="price-feature-b1">Theoretischer Unterricht</li>
+                    <li id="price-feature-b2">Moderne Schulungsfahrzeuge</li>
+                    <li id="price-feature-b3">Inkl. Lern-App</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h2 id="contact-heading">Bereit für die Straße?</h2>
+                <p id="contact-text">Schreib uns eine Nachricht oder komm direkt in der Firma vorbei.</p>
+                <form>
+                    <input type="text" placeholder="Dein Name" required>
+                    <input type="email" placeholder="Deine E-Mail" required>
+                    <textarea placeholder="Deine Nachricht" rows="4"></textarea>
+                    <button type="submit" class="btn-primary" id="contact-cta">Anfrage senden</button>
+                    <!--<a href="https://maxi.fahrschulmanager.de/?t=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SkRkWE4wYjIxbGNrbGtJam9pTVRJNU1qSTBOQ0lzSWtOc2FXVnVkRWxrSWpveE1UTTVOamtzSWtaVFRWSnBaMmgwY3lJNklpSXNJbEJFUVZKcFoyaDBjeUk2SWlJc0lsVnpaWEp1WVcxbElqb2lJaXdpZFc1cGNYVmxYMjVoYldVaU9pSWlMQ0pFYVhOd2JHRjVUbUZ0WlNJNklpSXNJa1pwY25OMFRtRnRaU0k2SWlJc0lreGhjM1JPWVcxbElqb2lJaXdpVTJsd1oyRjBaVTUxYlcxbGNpSTZJaUlzSWtKbGRHRkhjbTkxY0NJNlptRnNjMlVzSWxKdmJHVWlPaUpOWVhocElpd2lVM1ZpWVdOamIzVnVkQ0k2ZEhKMVpTd2lSbE5OVW05c1pTSTZXeUpEYkc5MVpIeDhSbE5OSWl3aVEyeHZkV1I4ZkZCRFVDSXNJa1JEUm1Gb2NuTmphSFZzWlNJc0ltVk1RbVVpTENKR1lXaHlaVzVNWlhKdVpXNU5ZWGhXWlhKM1lXeDBkVzVuSWl3aVQyNXNhVzVsVlhCa1lYUmxjM3g4Umt4VGVXNWpJaXdpVDI1c2FXNWxWWEJrWVhSbGMzeDhSa3hUZVc1algxUnBibmtpTENKUGJteHBibVZWY0dSaGRHVnpmSHhHVEZZaUxDSlBibXhwYm1WVmNHUmhkR1Z6Zkh4R1RGWmZVSEpsVkdWemRGTmxjblpwWTJVaUxDSlBibXhwYm1WVmNHUmhkR1Z6Zkh4R1RGWmZWWEJrWVhSbGNpSXNJazl1YkdsdVpWVndaR0YwWlhOOGZFWk1WbDlXYjJkbGJFTm9aV05ySWl3aVQyNXNhVzVsVlhCa1lYUmxjM3g4UmxOTklpd2lUMjVzYVc1bFZYQmtZWFJsYzN4OFJsTk5YMU41Ym1NaUxDSlFjbTlrZFd0MFpYeDhVR3gxY3lJc0lsTk5VMVpsY25OaGJtUWlMQ0pUZEdGeWRHaHBiR1psSWwwc0ltNWlaaUk2TVRjM056YzBOVFV6Tnl3aVpYaHdJam94TnpjM056VXlOek0zTENKcFlYUWlPakUzTnpjM05EVTFNemQ5LlE4 V0Fn VzVmNkd2cDkteF VZamlwNEozR0QxS3ZPNGQz V25NaF9YdmtrLWM%3D&color1=E60015&color2=000000&s.useSession=false" class="btn-secondary" id="online-registration-button" target="_blank" rel="noopener">Online Anmeldung</a>-->
+                </form>
+            </div>
+            <div class="contact-locations">
+                <h2 class="section-title" id="locations-title">Finden Sie Unsere Standorte</h2>
+                <div class="locations-grid">
+                    <article class="location-card" data-location="winsener">
+                        <h3>Harburg – Winsener Straße 16</h3>
+                        <p>21077 Hamburg</p>
+                        <p>
+                            <a href="tel:+49407634377">040 / 7 63 43 77</a><br>
+                            <a href="tel:+494076114982">040 / 761 14 98 2</a>
+                        </p>
+                        <p><a href="https://goo.gl/maps/PmH9TBtMqET2" target="_blank" rel="noopener">Google Maps</a></p>
+                    </article>
+                    <article class="location-card" data-location="hanhoopsfeld">
+                        <h3>Harburg – Hanhoopsfeld 18</h3>
+                        <p>21079 Hamburg</p>
+                        <p>
+                            <a href="tel:+49407631121">040 / 763 11 21</a><br>
+                            <a href="tel:+494076117651">040 / 761 17 651</a>
+                        </p>
+                        <p><a href="https://www.google.de/maps/place/Hanhoopsfeld+18,+21079+Hamburg/" target="_blank" rel="noopener">Google Maps</a></p>
+                    </article>
+                    <article class="location-card" data-location="meckelfeld">
+                        <h3>Meckelfeld – Mattenmoorstr. 17</h3>
+                        <p>21217 Seevetal</p>
+                        <p>
+                            <a href="tel:+49407688180">040 / 7 68 81 80</a><br>
+                            <a href="tel:+494076116376">040 / 761 16 376</a>
+                        </p>
+                        <p><a href="https://goo.gl/maps/Z3eNVcnLSbE2" target="_blank" rel="noopener">Google Maps</a></p>
+                    </article>
+                    <article class="location-card" data-location="hittfeld">
+                        <h3>Hittfeld – Hittfelder Schulstr. 15</h3>
+                        <p>21218 Seevetal</p>
+                        <p>
+                            <a href="tel:+494105570643">04105 / 57 06 43</a><br>
+                            <a href="tel:+494105570644">04105 / 57 06 44</a>
+                        </p>
+                        <p><a href="https://goo.gl/maps/Zb1f3E8UVsJ2" target="_blank" rel="noopener">Google Maps</a></p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="container booking-section">
+        <div class="booking-card">
+            <h2 id="booking-title">Termin online buchen</h2>
+            <p id="booking-text">Wähle deinen Termin aus dem Kalender oder rufe uns direkt an für sofortige Hilfe.</p>
+            <div class="booking-grid">
+                <div class="booking-item">
+                    <strong id="booking-slot-mondothurs">Mo - Do</strong>
+                    <span id="booking-time-mondothurs">09:00 - 13:00</span>
+                    <span id="booking-time-mondothurs2">14:00 - 18:00</span>
+                </div>
+                <div class="booking-item">
+                    <strong id="booking-slot-friday">Freitag</strong>
+                    <span id="booking-time-friday">10:00 - 14:30</span>
+                </div>
+                <div class="booking-item">
+                    <strong id="booking-slot-online">Online</strong>
+                    <span id="booking-option-online">Termin per Kalender</span>
+                </div>
+                <div class="booking-item">
+                    <strong id="booking-slot-phone">Telefon</strong>
+                    <span id="booking-phone-number">040 / 7 63 43 77</span>
+                </div>
+            </div>
+            <div class="booking-actions">
+                <a href="https://calendar.google.com/calendar/u/0/r?cid=mycalmstudio%40gmail.com" class="btn-primary btn-booking" target="_blank" rel="noopener" id="booking-button">Google Kalender</a>
+                <a href="tel:+4917655967831" class="btn-secondary btn-booking" id="booking-phone">Per Telefon buchen</a>
+                <a href="mailto:dedekapiamba@yahoo.com" class="btn-tertiary btn-booking" id="booking-email">Per E-Mail buchen</a>
+            </div>
+            <div class="calendar-embed">
+                <iframe src="https://calendar.google.com/calendar/embed?src=mycalmstudio%40gmail.com&ctz=Europe%2FBerlin" class="calendar-frame"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="modal-winsener" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Harburg – Winsener Straße 16</h2>
+            <p><strong class="modal-address">Adresse:</strong> Winsener Straße 16, 21077 Hamburg</p>
+            <p><strong class="modal-phone">Telefon:</strong> <a href="tel:+49407634377">040 / 7 63 43 77</a>, <a href="tel:+494076114982">040 / 761 14 98 2</a></p>
+            <p><strong class="modal-hours">Öffnungszeiten:</strong></p>
+            <ul>
+                <li class="monday-thursday">Montag - Donnerstag: 09:00 - 13:00, 14:00 - 18:00</li>
+                <li class="friday-hours">Freitag: 10:00 - 14:30</li>
+                <li class="weekend-hours">Samstag: Geschlossen<br>Sonntag: Geschlossen</li>
+            </ul>
+            <div class="modal-images">
+                <img src="Holst_Winsener1.jpg" alt="Fahrschule Winsener Straße 1">
+                <img src="Holst_Winsener2.jpg" alt="Fahrschule Winsener Straße 2">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-hanhoopsfeld" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Harburg – Hanhoopsfeld 18</h2>
+            <p><strong class="modal-address">Adresse:</strong> Hanhoopsfeld 18, 21079 Hamburg</p>
+            <p><strong class="modal-phone">Telefon:</strong> <a href="tel:+49407631121">040 / 763 11 21</a>, <a href="tel:+494076117651">040 / 761 17 651</a></p>
+            <p><strong class="modal-hours">Öffnungszeiten:</strong></p>
+            <ul>
+                <li class="monday-thursday">Montag - Donnerstag: 09:00 - 13:00, 14:00 - 18:00</li>
+                <li class="friday-hours">Freitag: 10:00 - 14:30</li>
+                <li class="weekend-hours">Samstag: Geschlossen<br>Sonntag: Geschlossen</li>
+            </ul>
+            <div class="modal-images">
+                <img src="Holst_Hanhoopsfeld.jpg" alt="Fahrschule Hanhoopsfeld 1">
+                <img src="Holst_Hanhoopsfeld2.jpg" alt="Fahrschule Hanhoopsfeld 2">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-meckelfeld" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Meckelfeld – Mattenmoorstr. 17</h2>
+            <p><strong class="modal-address">Adresse:</strong> Mattenmoorstr. 17, 21217 Seevetal</p>
+            <p><strong class="modal-phone">Telefon:</strong> <a href="tel:+49407688180">040 / 7 68 81 80</a>, <a href="tel:+494076116376">040 / 761 16 376</a></p>
+            <p><strong class="modal-hours">Öffnungszeiten:</strong></p>
+            <ul>
+                <li class="monday-thursday">Montag - Donnerstag: 09:00 - 13:00, 14:00 - 18:00</li>
+                <li class="friday-hours">Freitag: 10:00 - 14:30</li>
+                <li class="weekend-hours">Samstag: Geschlossen<br>Sonntag: Geschlossen</li>
+            </ul>
+            <div class="modal-images">
+                <img src="Holst_meckelfeld1.jpg" alt="Fahrschule Meckelfeld 1">
+                <img src="Holst_meckelfeld2.jpg" alt="Fahrschule Meckelfeld 2">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-hittfeld" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Hittfeld – Hittfelder Schulstr. 15</h2>
+            <p><strong class="modal-address">Adresse:</strong> Hittfelder Schulstr. 15, 21218 Seevetal</p>
+            <p><strong class="modal-phone">Telefon:</strong> <a href="tel:+494105570643">04105 / 57 06 43</a>, <a href="tel:+494105570644">04105 / 57 06 44</a></p>
+            <p><strong class="modal-hours">Öffnungszeiten:</strong></p>
+            <ul>
+                <li class="monday-thursday">Montag - Donnerstag: 09:00 - 13:00, 14:00 - 18:00</li>
+                <li class="friday-hours">Freitag: 10:00 - 14:30</li>
+                <li class="weekend-hours">Samstag: Geschlossen<br>Sonntag: Geschlossen</li>
+            </ul>
+            <div class="modal-images">
+                <img src="Holst_hittfeld1.jpg" alt="Fahrschule Hittfeld 1">
+                <img src="Holst_hittfeld2.jpg" alt="Fahrschule Hittfeld 2">
+            </div>
+        </div>
+    </div>
+
+    <section id="resources" class="container resources-section">
+        <h2 class="section-title" id="resources-title">Nützliche Ressourcen</h2>
+        <div class="resources-grid">
+            <article class="resource-card">
+                <h3 id="resource-lbv-title">🏛️ Landesbetrieb Verkehr (LBV)</h3>
+                <p id="resource-lbv-text">Hier finden Sie alle wichtigen Informationen, Services und Online-Dienste rund um die Themen Fahrzeug-Zulassung und -Abmeldung, Führerschein und Parken in Hamburg.</p>
+                <a href="https://www.hamburg.de/verkehr/lbv" target="_blank" rel="noopener" class="resource-link" id="resource-lbv-link">Zur LBV-Website</a>
+            </article>
+            <article class="resource-card">
+                <h3 id="resource-lbv-terms-title">📅 Termine buchen</h3>
+                <p id="resource-lbv-terms-text">Buchen Sie direkt Ihren Termin zur Führerscheinprüfung oder für die Fahrzeug-Zulassung im LBV Termin-System.</p>
+                <a href="https://www.lbv-termine.de/frontend/index.php" target="_blank" rel="noopener" class="resource-link" id="resource-lbv-terms-link">Termin vereinbaren</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="professional-training" class="container professional-training-section">
+        <h2 class="section-title" id="professional-training-title">Berufskraftfahrer Weiterbildung</h2>
+        <p class="section-subtitle" id="professional-training-subtitle">Spezialisierte Schulungen für professionelle Fahrer</p>
+        
+        <div class="training-tabs">
+            <button class="training-tab-btn active" data-tab="individual" id="training-tab-individual">Einzelseminar</button>
+            <button class="training-tab-btn" data-tab="weekly" id="training-tab-weekly">Wochenseminar</button>
+            <button class="training-tab-btn" data-tab="accelerated" id="training-tab-accelerated">Beschleunigte Grundqualifikation</button>
+        </div>
+
+        <div class="training-content">
+            <div id="individual" class="training-tab active">
+                <div class="training-card">
+                    <h3 id="training-card-individual-title">📋 Einzelseminar</h3>
+                    <p id="training-card-individual-text">Flexibles Einzeltraining für Berufskraftfahrer. Termine nach Vereinbarung – gestalten Sie die Schulung nach Ihren Anforderungen.</p>
+                    <a href="https://www.fahrschule-holst.de/wp-content/uploads/2018/03/Anmeldeformular.pdf" target="_blank" rel="noopener" class="training-link">Anmeldeformular PDF</a>
+                </div>
+            </div>
+
+            <div id="weekly" class="training-tab">
+                <div class="training-card">
+                    <h3 id="training-card-weekly-title">📅 Wochenseminar</h3>
+                    <p id="training-card-weekly-text">Intensive Schulungen über mehrere Tage. Wir gestalten das Seminar individuell mit Ihnen – Beratung und Planung nach Ihren Bedürfnissen.</p>
+                    <a href="mailto:mycalmstudio@gmail.com" class="training-link">Beratung anfragen</a>
+                </div>
+            </div>
+
+            <div id="accelerated" class="training-tab">
+                <div class="training-card">
+                    <h3 id="training-card-accelerated-title">⚡ Beschleunigte Grundqualifikation</h3>
+                    <p id="training-card-accelerated-text">Kompakte Grundqualifikation für Berufskraftfahrer. Effiziente Schulung mit umfassender Vorbereitung auf die praktische Prüfung.</p>
+                    <a href="https://www.fahrschule-holst.de/wp-content/uploads/2018/03/Anmeldeformular.pdf" target="_blank" rel="noopener" class="training-link">Anmeldeformular PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="handicap" class="container handicap-section">
+        <h2 class="section-title" id="handicap-title">♿ Menschen mit Behinderungen</h2>
+        <p class="section-subtitle" id="handicap-subtitle">Spezialisierte Ausbildung seit 2007</p>
+        
+        <div class="handicap-content">
+            <div class="handicap-card">
+                <h3 id="handicap-card-exp-title">🏆 Erfahrung</h3>
+                <p id="handicap-card-exp-text">Seit 2007 bilden wir Menschen mit Behinderungen aus. Unsere Fahrlehrerinnen und Fahrlehrer sind speziell fortgebildet und verfügen über jahrelange Erfahrung in der Handicap-Ausbildung.</p>
+            </div>
+            <div class="handicap-card">
+                <h3 id="handicap-card-barrier-title">🚪 Barrierefreiheit</h3>
+                <p id="handicap-card-barrier-text">Alle unsere Fahrschulen sind barrierefrei zu erreichen. Bushaltestellen befinden sich in unmittelbarer Umgebung. Der theoretische Unterricht wird integrativ mit behinderten und nichtbehinderten Fahrschülern durchgeführt.</p>
+            </div>
+            <div class="handicap-card">
+                <h3 id="handicap-card-expert-title">📋 Fachgutachten</h3>
+                <p id="handicap-card-expert-text">Wir erstellen Fahrproben und Gutachten zur Beurteilung der Fahrtauglichkeit. Unsere Experten helfen Ihnen und Ihrem Facharzt bei der Entscheidungsfindung.</p>
+            </div>
+            <div class="handicap-card">
+                <h3 id="handicap-card-support-title">💰 Förderung</h3>
+                <p id="handicap-card-support-text">Wir unterstützen Sie bei der beruflichen Rehabilitation durch die Deutsche Rentenversicherung. Beratung und individuelle Lösungen für Ihre Situation.</p>
+            </div>
+        </div>
+        
+        <div class="handicap-cta">
+            <p id="handicap-cta-text">Haben Sie Fragen oder möchten Sie sich beraten lassen?</p>
+            <a href="#contact" class="btn-primary" id="handicap-cta-button">Kontakt aufnehmen</a>
+        </div>
+    </section>
+
+    <section id="team" class="container team-section">
+        <h2 class="section-title" id="team-title">Unser Team</h2>
+        <p class="section-subtitle" id="team-subtitle">Lernen Sie unser engagiertes Team kennen</p>
+        
+        <div class="team-tabs">
+            <button class="team-tab-btn active" data-tab="buro" id="team-tab-office">Bürokräfte</button>
+            <button class="team-tab-btn" data-tab="fahrlehrer" id="team-tab-instructors">Fahrlehrer</button>
+            <button class="team-tab-btn" data-tab="rentner" id="team-tab-retired">Die Rentner</button>
+        </div>
+
+        <div class="team-content">
+            <div id="buro" class="team-tab active">
+                <div class="team-grid">
+                    <div class="team-member" data-member="christiane-holst">
+                        <img src="christiane_holst.jpg" alt="Christiane Holst">
+                        <h3>Christiane Holst</h3>
+                        <p>Betriebsmanagerin KMU</p>
+                    </div>
+                    <div class="team-member" data-member="marina-lossmann">
+                        <img src="marina_lossmann.jpg" alt="Marina Lossmann">
+                        <h3>Marina Lossmann</h3>
+                        <p>Assistentin der Geschäftsleitung</p>
+                    </div>
+                    <div class="team-member" data-member="britta-stein">
+                        <img src="britta_stein.jpg" alt="Britta Stein">
+                        <h3>Britta Stein</h3>
+                        <p>Betriebsmanagerin KMU</p>
+                    </div>
+                    <div class="team-member" data-member="melanie-sievers">
+                        <img src="melanie_sievers.jpg" alt="Melanie Sievers">
+                        <h3>Melanie Sievers</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="dangela-niemann">
+                        <img src="dangela_niemann.jpg" alt="Dangela Niemann">
+                        <h3>Dangela Niemann</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="poschel-lavdrime">
+                        <img src="poeschel_lavdrime.jpg" alt="Pöschel Lavdrime">
+                        <h3>Pöschel Lavdrime</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="maik-kitzuhn">
+                        <img src="maik_kitzuhn.jpg" alt="Maik Kitzuhn">
+                        <h3>Maik Kitzuhn</h3>
+                        <p>Büroassistent</p>
+                    </div>
+                    <div class="team-member" data-member="anita-agac">
+                        <img src="anita_agac.jpg" alt="Anita Agac">
+                        <h3>Anita Agac</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="heike-schroder">
+                        <img src="heike_schroder.jpg" alt="Heike Schröder">
+                        <h3>Heike Schröder</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="helena-huber">
+                        <img src="helena_huber.jpg" alt="Helena Huber">
+                        <h3>Helena Huber</h3>
+                        <p>Büroassistentin</p>
+                    </div>
+                    <div class="team-member" data-member="gultekin-emirhan">
+                        <img src="gultekin_emirhan.jpg" alt="Gültekin Emirhan">
+                        <h3>Gültekin Emirhan</h3>
+                        <p>Auszubildender</p>
+                    </div>
+                </div>
+                <div class="team-needed">
+                    <p><strong>Fahrschullehrer und Mitarbeiter gesucht!</strong></p>
+                    <p>Wir würden uns freuen, Sie in unserem Team willkommen zu heißen. Kontaktieren Sie uns</p>
+                    <p>040 / 763 43 77<br>0176 / 23 30 88 64</p>
+                </div>
+            </div>
+
+            <div id="fahrlehrer" class="team-tab">
+                <div class="team-grid">
+                    <div class="team-member" data-member="henry-holst">
+                        <img src="henry_holst.jpg" alt="Henry Holst">
+                        <h3>Henry Holst</h3>
+                        <p>Inhaber</p>
+                    </div>
+                    <div class="team-member" data-member="wolfgang-holst">
+                        <img src="wolfgang_holst.jpg" alt="Wolfgang Holst">
+                        <h3>Wolfgang Holst</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="christian-kohnert">
+                        <img src="christian_kohnert.jpg" alt="Christian Kohnert">
+                        <h3>Christian Kohnert</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="gregor-weske">
+                        <img src="gregor_weske.jpg" alt="Gregor Weske">
+                        <h3>Gregor Weske</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="nicole-berthold">
+                        <img src="nicole_berthold.jpg" alt="Nicole Berthold">
+                        <h3>Nicole Berthold</h3>
+                        <p>Fahrlehrerin</p>
+                    </div>
+                    <div class="team-member" data-member="orbis-muller-knauff">
+                        <img src="orbis_muller_knauff.jpg" alt="Orbis Müller-Knauff">
+                        <h3>Orbis Müller-Knauff</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="andre-veenhuis">
+                        <img src="andre_veenhuis.jpg" alt="André Veenhuis">
+                        <h3>André Veenhuis</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="valod-sargsyan">
+                        <img src="valod_sargsyan.jpg" alt="Valod Sargsyan">
+                        <h3>Valod Sargsyan</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="sedat-duran">
+                        <img src="sedat_duran.jpg" alt="Sedat Duran">
+                        <h3>Sedat Duran</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                    <div class="team-member" data-member="grit-meluh">
+                        <img src="grit_meluh.jpg" alt="Grit Melüh">
+                        <h3>Grit Melüh</h3>
+                        <p>Fahrlehrerin</p>
+                    </div>
+                    <div class="team-member" data-member="mohammed-amin-hoshang-hasan">
+                        <img src="mohammed_amin_hoshang_hasan.jpg" alt="Mohammed Amin, Hoshang Hasan">
+                        <h3>Mohammed Amin, Hoshang Hasan</h3>
+                        <p>Fahrlehrer</p>
+                    </div>
+                </div>
+                <div class="team-needed">
+                    <p><strong>Fahrschullehrer und Mitarbeiter gesucht!</strong></p>
+                    <p>Wir würden uns freuen, Sie in unserem Team willkommen zu heißen. Kontaktieren Sie uns</p>
+                    <p>040 / 763 43 77<br>0176 / 23 30 88 64</p>
+                </div>
+            </div>
+
+            <div id="rentner" class="team-tab">
+                <div class="team-grid">
+                    <div class="team-member" data-member="juergen-haak">
+                        <img src="jurgen_haak.jpg" alt="Jürgen Haak">
+                        <h3>Jürgen Haak</h3>
+                        <p>Im Ruhestand seit 1996</p>
+                    </div>
+                    <div class="team-member" data-member="brigitte-nitsch">
+                        <img src="brigitte_nitsch.jpg" alt="Brigitte Nitsch">
+                        <h3>Brigitte Nitsch</h3>
+                        <p>Sekretärin (Ruhestand)</p>
+                    </div>
+                    <div class="team-member" data-member="uwe-jacobsen">
+                        <img src="uwe_jacobsen.jpg" alt="Uwe Jacobsen">
+                        <h3>Uwe Jacobsen</h3>
+                        <p>Fahrlehrer † (1959 - 2013)</p>
+                    </div>
+                </div>
+                <div class="team-needed">
+                    <p><strong>Dankbar für jahrelange Unterstützung</strong></p>
+                    <p>Wir erinnern an unsere ehemaligen Mitglieder, die unsere Fahrschule mit großem Engagement geprägt haben.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Modals -->
+    <div id="modal-christiane-holst" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Christiane Holst</h2>
+            <img src="Christiane_Holst.jpg" alt="Christiane Holst" class="modal-team-img">
+            <p><strong>Rolle:</strong> Betriebsmanagerin KMU</p>
+            <p><strong>Seit:</strong> 01.06.1993</p>
+            <p>Sie bildet unsere Kaufleute für Büromanagement aus. Ist für alle Belange im Betrieb und der Organisation verantwortlich.</p>
+        </div>
+    </div>
+
+    <div id="modal-marina-lossmann" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Marina Lossmann</h2>
+            <img src="Marina_Lossmann.jpg" alt="Marina Lossmann" class="modal-team-img">
+            <p><strong>Rolle:</strong> Assistentin der Geschäftsleitung</p>
+            <p><strong>Seit:</strong> 01.08.2010</p>
+            <p>Sie hat ihre Ausbildung am 01.08.2010 in der Fahrschule Holst als Kauffrau für Bürokommunikation begonnen und mit Erfolg bestanden.</p>
+        </div>
+    </div>
+
+    <div id="modal-britta-stein" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Britta Stein</h2>
+            <img src="Britta_Stein.jpg" alt="Britta Stein" class="modal-team-img">
+            <p><strong>Rolle:</strong> Betriebsmanagerin KMU</p>
+            <p><strong>Seit:</strong> 01.08.2011</p>
+            <p>Sie ist für das Büro in der Winsener Straße 16 zuständig, sowie für die Buchhaltung.</p>
+        </div>
+    </div>
+
+    <div id="modal-melanie-sievers" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Melanie Sievers</h2>
+            <img src="Melanie_Sievers.jpg" alt="Melanie Sievers" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 01.03.2023</p>
+            <p>Ist für das Büro in der Hanhoopsfeld 18 zuständig. Sie ist in der Fahrschule Holst als Kauffrau für Bürokommunikation angestellt.</p>
+        </div>
+    </div>
+
+    <div id="modal-dangela-niemann" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Dangela Niemann</h2>
+            <img src="team-dangela-niemann.jpg" alt="Dangela Niemann" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 01.08.2011</p>
+            <p>Ist für das Büro in Meckelfeld zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-poschel-lavdrime" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Pöschel Lavdrime</h2>
+            <img src="Poeschel_Lavdrime.jpg" alt="Pöschel Lavdrime" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 19.08.2024</p>
+            <p>Ist für das Büro in Hittfeld zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-maik-kitzuhn" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Maik Kitzuhn</h2>
+            <img src="MAIK_KITZUHN.jpg" alt="Maik Kitzuhn" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistent</p>
+            <p><strong>Seit:</strong> 01.04.2023</p>
+            <p>Ist für das Büro in Meckelfeld zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-anita-agac" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Anita Agac</h2>
+            <img src="Anita_Agac.jpg" alt="Anita Agac" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 01.02.2020</p>
+            <p>Ist für das Büro in der Winsener Straße 16 zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-heike-schroder" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Heike Schröder</h2>
+            <img src="Heike_Schroder.jpg" alt="Heike Schröder" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 01.05.2023</p>
+            <p>Ist für das Büro in Hittfeld zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-helena-huber" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Helena Huber</h2>
+            <img src="Helena_Huber.jpg" alt="Helena Huber" class="modal-team-img">
+            <p><strong>Rolle:</strong> Büroassistentin</p>
+            <p><strong>Seit:</strong> 01.08.2025</p>
+            <p>Ist für das Büro in der Winsener Straße 16 zuständig.</p>
+        </div>
+    </div>
+
+    <div id="modal-gultekin-emirhan" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Gültekin Emirhan</h2>
+            <img src="Gultekin_Emirhan.jpg" alt="Gültekin Emirhan" class="modal-team-img">
+            <p><strong>Rolle:</strong> Auszubildender</p>
+            <p><strong>Seit:</strong> 01.08.2022</p>
+            <p>Ist in der Ausbildung zum Kaufmann für Büromanagement.</p>
+        </div>
+    </div>
+
+    <div id="modal-henry-holst" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Henry Holst</h2>
+            <img src="Henry_Holst.jpg" alt="Henry Holst" class="modal-team-img">
+            <p><strong>Rolle:</strong> Inhaber</p>
+            <p><strong>Fahrlehrer seit:</strong> 18.12.1988</p>
+            <p>Bildet in Harburg aus. Fahrlehrer aller Klassen. Seminarleiter ASF, Seminarleiter FES, Ausbildungsfahrlehrer, Ausbilder für Flurförderfahrzeuge, Ausbilder für Ladungssicherung nach VDI 2700a, Weiterbildungen für Menschen mit Behinderungen. Qualifikationen: Industrie-Meister Fachrichtung Kraftverkehr, Berufskraftfahrer Güterverkehr, Kfz Mechaniker.</p>
+        </div>
+    </div>
+
+    <div id="modal-wolfgang-holst" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Wolfgang Holst</h2>
+            <img src="Wolfgang_Holst.jpg" alt="Wolfgang Holst" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Fahrlehrer seit:</strong> 27.03.1992</p>
+            <p><strong>Seit:</strong> 27.03.1996</p>
+            <p>Bildet in Hittfeld aus. Fahrlehrer aller Klassen. Seminarleiter ASF, Seminarleiter FES, Ausbildungsfahrlehrer, Ausbilder für Flurförderfahrzeuge, Ausbilder für Ladungssicherung nach VDI 2700a.</p>
+        </div>
+    </div>
+
+    <div id="modal-christian-kohnert" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Christian Kohnert</h2>
+            <img src="Christian_Kohnert.jpg" alt="Christian Kohnert" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Fahrlehrer seit:</strong> 09.08.2021</p>
+            <p><strong>Seit:</strong> 10.08.2021</p>
+            <p>Bildet in Meckelfeld & Hittfeld aus. Fahrlehrer der Klassen B & BE. Qualifikationen: Kaufmann.</p>
+        </div>
+    </div>
+
+    <div id="modal-gregor-weske" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Gregor Weske</h2>
+            <img src="Gregor_Weske.jpg" alt="Gregor Weske" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Fahrlehrer seit:</strong> 26.08.2024</p>
+            <p><strong>Seit:</strong> 28.01.2024</p>
+            <p>Bildet in Hittfeld aus. Fahrlehrer der Klassen B & BE. Qualifikationen: Kfz-Mechaniker Nutzkraftfahrzeuge.</p>
+        </div>
+    </div>
+
+    <div id="modal-nicole-berthold" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Nicole Berthold</h2>
+            <img src="Nicole_Berthold.jpg" alt="Nicole Berthold" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrerin</p>
+            <p><strong>Fahrlehrerin seit:</strong> 2023</p>
+            <p><strong>Seit:</strong> 01.08.2022</p>
+            <p>Bildet in Harburg aus. Fahrlehrer der Klassen B & BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-orbis-muller-knauff" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Orbis Müller-Knauff</h2>
+            <img src="Orbis_Muller_Knauff.jpg" alt="Orbis Müller-Knauff" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Fahrlehrer seit:</strong> 19.06.2017</p>
+            <p><strong>Seit:</strong> 01.03.2018</p>
+            <p>Bildet in Harburg & Hittfeld aus. Fahrlehrer der Klassen A, B, BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-andre-veenhuis" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>André Veenhuis</h2>
+            <img src="Andre_Veenhuis.jpg" alt="André Veenhuis" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Seit:</strong> 17.10.2024</p>
+            <p>Ist in der Fahrschule Holst zum Fahrlehrer ausgebildet worden. Fahrlehrer der Klassen B & BE. Qualifikationen: Musik Lehrer.</p>
+        </div>
+    </div>
+
+    <div id="modal-valod-sargsyan" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Valod Sargsyan</h2>
+            <img src="Valod_Sargsyan.jpg" alt="Valod Sargsyan" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Seit:</strong> 24.07.2023</p>
+            <p>Bildet in Meckelfeld & Hittfeld aus. Fahrlehrer der Klassen B & BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-sedat-duran" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sedat Duran</h2>
+            <img src="Sedat_Duran.jpg" alt="Sedat Duran" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Seit:</strong> 22.10.2025</p>
+            <p>Wird in der Fahrschule Holst zum Fahrlehrer ausgebildet. Fahrlehrer der Klassen B & BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-grit-meluh" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Grit Melüh</h2>
+            <img src="Grit_meluh.jpg" alt="Grit Melüh" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrerin</p>
+            <p><strong>Fahrlehrerin seit:</strong> 23.11.2020</p>
+            <p><strong>Seit:</strong> 05.05.2025</p>
+            <p>Bildet in Hittfeld & Harburg aus. Ihre Empathie liegt im wesentlichen in der Ausbildung für Menschen mit Handicap. Fahrlehrerin der Klassen B & BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-mohammed-amin-hoshang-hasan" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Mohammed Amin, Hoshang Hasan</h2>
+            <img src="Mohammed_Amin_Hoshang_Hasan.jpg" alt="Mohammed Amin, Hoshang Hasan" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Seit:</strong> 16.03.2026</p>
+            <p>Bildet in Hittfeld aus. Wird in der Fahrschule Holst zum Fahrlehrer ausgebildet. Fahrlehrer der Klassen B & BE.</p>
+        </div>
+    </div>
+
+    <div id="modal-juergen-haak" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Jürgen Haak</h2>
+            <img src="Jurgen_Haak.jpg" alt="Jürgen Haak" class="modal-team-img">
+            <p><strong>Rolle:</strong> Gründer & Fahrlehrer (Ruhestand)</p>
+            <p><strong>Im Ruhestand seit:</strong> 1996</p>
+            <p>Jürgen Haak hat die Fahrschule Holst gegründet und prägte sie viele Jahre mit seinem Engagement. Er hat sich 1996 in den wohlverdienten Ruhestand verabschiedet.</p>
+        </div>
+    </div>
+
+    <div id="modal-brigitte-nitsch" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Brigitte Nitsch</h2>
+            <img src="Brigitte_Nitsch.jpg" alt="Brigitte Nitsch" class="modal-team-img">
+            <p><strong>Rolle:</strong> Sekretärin (Ruhestand)</p>
+            <p><strong>Eingestellt am:</strong> 26.07.1978</p>
+            <p>Frau Nitsch wurde von Jürgen Haak als Sekretärin in der Mensingstraße 26 eingestellt. Mit dem Kauf der Fahrschule Haak wurde sie in die Fahrschule Holst übernommen, wo sie bis zur Rente ihrer Arbeit dankenswert verrichtete.</p>
+        </div>
+    </div>
+
+    <div id="modal-uwe-jacobsen" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Uwe Jacobsen (†)</h2>
+            <img src="Uwe_Jacobsen.jpg" alt="Uwe Jacobsen" class="modal-team-img">
+            <p><strong>Rolle:</strong> Fahrlehrer</p>
+            <p><strong>Fahrlehrer seit:</strong> 1959</p>
+            <p><strong>† 2013</strong></p>
+            <p>Uwe Jacobsen war ein erfahrener Fahrlehrer der Klasse B und hat sich in unseren Herzen eine bleibende Erinnerung hinterlassen. Seine Fachkompetenz und Leidenschaft für seinen Beruf werden uns immer in Erinnerung bleiben.</p>
+        </div>
+    </div>
+
+    <section id="partners" class="container partners-section">
+        <h2 class="section-title" id="partners-title">Unsere Partner</h2>
+        <div class="partners-grid">
+            <a href="https://www.mobilcentrum-loennies.de/" target="_blank" rel="noopener" class="partner-link">
+                <img src="mobilcentrum_loennies_logo.png" alt="Mobil Centrum Lönnies">
+            </a>
+            <a href="https://www.bvf.de/" target="_blank" rel="noopener" class="partner-link">
+                <img src="BVF_logo.png" alt="BVF">
+            </a>
+            <a href="https://www.hamburg.de/lbv" target="_blank" rel="noopener" class="partner-link">
+                <img src="lbv_logo.jpg" alt="LBV Hamburg">
+            </a>
+            <a href="https://www.team-wahlers.de/" target="_blank" rel="noopener" class="partner-link">
+                <img src="wahlers_logo.png" alt="Wählers">
+            </a>
+            <a href="https://www.tuev-nord.de/" target="_blank" rel="noopener" class="partner-link">
+                <img src="TUVNord_logo.png" alt="TÜV Nord">
+            </a>
+            <a href="https://thomsen-meckelfeld.seat.de//" target="_blank" rel="noopener" class="partner-link">
+                <img src="thomsen_logo.png" alt="Thomsen">
+            </a>
+            <a href="https://www.fahrlehrerverband-hamburg.de//" target="_blank" rel="noopener" class="partner-link">
+                <img src="Fahrlehrerverband_hamburg_logo.png" alt="Fahrlehrerverband Hamburg">
+            </a>
+             <a href="https://www.flv-nds.de//" target="_blank" rel="noopener" class="partner-link">
+                <img src="Fahrlehrerverband_niedersachsen_logo.jpg" alt="Fahrlehrerverband Niedersachsen">
+            </a>
+        </div>
+    </section>
+
+    <div class="footer-rating">
+        <a href="https://www.werkenntdenbesten.de/e/52848305/fahrschule/seevetal/fahrschule-holst-bewertungen.html"
+           target="_blank"
+           rel="noopener"
+           aria-label="Bewertungen auf Wer kennt den Besten">
+            <img src="werkenntdenbesten-logo.png" alt="Wer kennt den Besten Bewertungen" class="review-logo-footer">
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Fahrschule Holst Hamburg</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                    <span class="social-icon">f</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                    <span class="social-icon">𝕏</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                    <span class="social-icon">📷</span>
+                </a>
+            </div>
+            <div class="legal-links">
+                <a href="impressum.html" id="footer-impressum">Impressum</a> | 
+                <a href="datenschutz.html" id="footer-datenschutz">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navDropdown = document.querySelector('.nav-item.dropdown');
+        const navMoreButton = document.getElementById('nav-more');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                navDropdown?.classList.remove('open');
+                navMoreButton?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        navMoreButton?.addEventListener('click', (event) => {
+            event.stopPropagation();
+            const isOpen = navDropdown.classList.toggle('open');
+            navMoreButton.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        // Close menu or dropdown when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.navbar-container')) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+            if (!event.target.closest('.nav-item.dropdown')) {
+                navDropdown?.classList.remove('open');
+                navMoreButton?.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        const slides = document.querySelectorAll('.slide');
+        const dotsContainer = document.getElementById('slide-dots');
+        let currentSlide = 0;
+        let slideTimer;
+
+        function showSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            dotsContainer.children[currentSlide].classList.remove('active');
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            dotsContainer.children[currentSlide].classList.add('active');
+        }
+
+        function createDots() {
+            slides.forEach((_, index) => {
+                const dot = document.createElement('button');
+                dot.className = 'slide-dot';
+                dot.setAttribute('aria-label', `Bild ${index + 1}`);
+                dot.addEventListener('click', () => {
+                    resetTimer();
+                    showSlide(index);
+                });
+                dotsContainer.appendChild(dot);
+            });
+            dotsContainer.children[0].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function resetTimer() {
+            clearInterval(slideTimer);
+            slideTimer = setInterval(nextSlide, 4000);
+        }
+
+        createDots();
+        document.querySelector('.slide-btn.next').addEventListener('click', () => { nextSlide(); resetTimer(); });
+        document.querySelector('.slide-btn.prev').addEventListener('click', () => { prevSlide(); resetTimer(); });
+        slideTimer = setInterval(nextSlide, 4000);
+
+        // Tab switching functionality for Professional Training
+        const tabButtons = document.querySelectorAll('.training-tab-btn');
+        const tabContents = document.querySelectorAll('.training-tab');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabId = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and tabs
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(tab => tab.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding tab
+                button.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Modal functionality for locations
+        const locationCards = document.querySelectorAll('.location-card');
+        const modals = document.querySelectorAll('.modal');
+        const closeButtons = document.querySelectorAll('.close');
+
+        locationCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const location = card.getAttribute('data-location');
+                const modal = document.getElementById('modal-' + location);
+                modal.style.display = 'block';
+            });
+        });
+
+        closeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                modals.forEach(modal => modal.style.display = 'none');
+            });
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (event) => {
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+
+        // Tab switching functionality for Team
+        const teamTabButtons = document.querySelectorAll('.team-tab-btn');
+        const teamTabContents = document.querySelectorAll('.team-tab');
+
+        teamTabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabId = button.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and tabs
+                teamTabButtons.forEach(btn => btn.classList.remove('active'));
+                teamTabContents.forEach(tab => tab.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding tab
+                button.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Modal functionality for Team
+        const teamMembers = document.querySelectorAll('.team-member');
+        const teamModals = document.querySelectorAll('.modal[id^="modal-"]'); // Select all modals starting with modal-
+        const teamCloseButtons = document.querySelectorAll('.modal[id^="modal-"] .close');
+
+        teamMembers.forEach(member => {
+            member.addEventListener('click', () => {
+                const memberId = member.getAttribute('data-member');
+                const modal = document.getElementById('modal-' + memberId);
+                if (modal) {
+                    modal.style.display = 'block';
+                }
+            });
+        });
+
+        teamCloseButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                teamModals.forEach(modal => modal.style.display = 'none');
+            });
+        });
+
+        // Close team modal when clicking outside
+        window.addEventListener('click', (event) => {
+            teamModals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <script src="translate.js"></script>
+</body>
+</html>
