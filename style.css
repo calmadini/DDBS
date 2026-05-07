@@ -563,7 +563,7 @@ body {
 .hero {
     padding: 100px 0;
     background: linear-gradient(rgba(29, 53, 87, 0.8), rgba(29, 53, 87, 0.8)), 
-                url('https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80');
+                url('printer11.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -773,6 +773,77 @@ body {
     background: var(--primary-color);
     color: white;
 }
+
+#ceo {
+  padding: 60px 20px;
+}
+
+.ceo-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.ceo-image-container {
+  width: 100%;
+}
+
+.ceo-image {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 30%;
+  display: block;
+}
+
+.ceo-card {
+  width: 100%;
+}
+
+.ceo-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.ceo-list li {
+  margin-bottom: 10px;
+}
+
+.ceo-tags {
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+/* Tablet and mobile */
+@media (max-width: 768px) {
+  .ceo-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .ceo-image {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .ceo-card {
+    text-align: left;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  #ceo {
+    padding: 40px 16px;
+  }
+
+  .ceo-image {
+    max-width: 280px;
+  }
+}
+
 
 /* Price Cards */
 .section-title { text-align: center; margin: 60px 0 30px; }
